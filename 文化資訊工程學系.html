@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<title>文化資訊工程學系</title>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body class="bg-cover bg-attachment">
+<!-- Navigation <--></-->
+	<nav class="navbar navbar-expand-md sticky-top">
+		<div class="container-fluid">
+				<span class="text-white font-weight-bold" id="logo">CSIE</span>
+			<button class="navbar-toggler bg-dark navbar-dark justify-content-center" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon" ></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="row navbar-nav">
+					<li class="col nav-item active">
+						<a class="nav-link" href="https://iecs.pccu.edu.tw/files/15-1130-6443,c2873-1.php">文化資工</a>
+					</li>
+					<li class="col nav-item">
+						<a class="nav-link" href="https://iecs.pccu.edu.tw/files/11-1130-5825.php">學生輔導</a>
+					</li>
+					<li class="col nav-item">
+						<a class="nav-link" href="https://iecs.pccu.edu.tw/ezfiles/130/1130/pictures/544/part_6090_3404356_55759.png">學習地圖</a>
+					</li>
+					<li class="col nav-item">
+						<a class="nav-link" href="https://iecs.pccu.edu.tw/files/13-1130-29759.php?Lang=zh-tw">升學榜單</a>
+					</li>
+					<li class="col nav-item">
+						<a class="nav-link" href="https://iecs.pccu.edu.tw/files/11-1130-5785.php">聯絡資訊</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Image Slider -->
+	<div class="carousel slide carousel-fade" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+					<li data-target="#slides" data-slide-to="0"></li>
+					<li data-target="#slides" data-slide-to="1" class="active"></li>
+					<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item">
+				<img src="img/01.jpg" alt="程式交易、人工智慧">
+			</div>
+			<div class="carousel-item active">
+				<img src="img/02.jpg" alt="網路攻擊技術與行為分析、網路安全">
+			</div>
+			<div class="carousel-item">
+				<img src="img/03.jpg" alt="智慧型手機程式設計、物聯網系統">
+			</div>
+			<div class="carousel-caption">
+				<div id="textOnImg">
+					<div class="row">
+						文化資工
+					</div>
+					<div class="row">
+						三大特色
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+<!-- Three Column Features -->
+	<div class="container-fluid" >
+		<div class="row font-weight-bold" id="features">
+			<span class="col-md-4"  href="#" id="leftFeature">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+					程式交易<br />人工智慧
+			</span>
+			<span class="col-md-4" href="#" id="centerFeature">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				網路攻擊技術與行為分析<br />網路安全
+			</span>
+			<span class="col-md-4" href="#" id="rightFeature">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				智慧型手機程式設計<br />物聯網系統
+			</span>
+		</div>
+	</div>
+
+<!-- section Image -->
+	<div class="pt-3">
+		<div class="container-fluid">
+			<div class="row py-5 font-weight-bold text-white text-center bg-cover bg-attachment" style="background-image: url('img/aaron-burden - IQGXSMLYJc-unsplash.jpg')">
+				<div class="col-md-3 col-sm-6">
+					<h1 class="py-4">大一</h1>
+					<p>-程式設計與實作</p>
+					<p>-基礎知識扎根學習</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h1 class="py-4">大二</h1>
+					<p>-系統設計與開發</p>
+					<p>-共同學習發芽成長</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h1 class="py-4">大三</h1>
+					<p>-系統整合與安全</p>
+					<p>-實作應用開花結果</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h1 class="py-4">大四</h1>
+					<p>-團隊合作與實習</p>
+					<p>-產業連結迎向未來</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- section Image Slider -->
+	<section class="py-3" id="activeImg">
+		<div class="container">
+			<div class="row pt-3 justify-content-center">
+				<h2>活動剪影</h2>
+			</div>
+			<div class="row ">
+					<div class="col-lg-6 py-2 carousel slide carousel-fade" data-ride="carousel" id="myCarousel">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+							<li data-target="#myCarousel" data-slide-to="4"></li>
+							<li data-target="#myCarousel" data-slide-to="5"></li>
+							<li data-target="#myCarousel" data-slide-to="6"></li>
+							<li data-target="#myCarousel" data-slide-to="7"></li>
+							<li data-target="#myCarousel" data-slide-to="8"></li>
+							<li data-target="#myCarousel" data-slide-to="9"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/01.jpg" alt="1">
+							</div>
+							<div class="carousel-item">
+								<img src="images/02.jpg" alt="2">
+							</div>
+							<div class="carousel-item">
+								<img src="images/03.jpg" alt="3">
+							</div>
+							<div class="carousel-item">
+								<img src="images/04.jpg" alt="4">
+							</div>
+							<div class="carousel-item">
+								<img src="images/05.jpg" alt="5">
+							</div>
+							<div class="carousel-item">
+								<img src="images/06.jpg" alt="6">
+							</div>
+							<div class="carousel-item">
+								<img src="images/07.jpg" alt="7">
+							</div>
+							<div class="carousel-item">
+								<img src="images/08.jpg" alt="8">
+							</div>
+							<div class="carousel-item">
+								<img src="images/09.jpg" alt="9">
+							</div>
+							<div class="carousel-item">
+								<img src="images/10.jpg" alt="10">
+							</div>
+						</div>
+
+						<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<div class="col-lg-6 text-break d-inline">
+						<h2>If you built it ..</h2>
+						<i>
+							barabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabara
+							barabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabara
+						</i>
+						<i>
+							barabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabara
+							barabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabarabara
+						</i>
+					</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Movie -->
+	<div class="py-3">
+		<div class="container">
+			<div class="embed-responsive embed-responsive-16by9">
+		  	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/puRJlkH3xIA"></iframe>
+			</div>
+		</div>
+	</div>
+
+<!-- Question & Answer -->
+	<div class="container-fluid" id="QA1">
+		<div class="row py-4 font-weight-bold bg-cover bg-attachment" style="background-image: url('img/debora-pilati-dOG0z4-gqp0-unsplash.jpg')">
+			<div class="col text-center">
+				<h3>三大學群，依興趣培養相關專長</h3>
+			</div>
+		</div>
+	</div>
+	<div class="accordin pb-4 px-4" id="accordionExample1">
+
+		<div class="card">
+			<div class="card-header" id="headOne">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						三大學群特色、所需人才及與產業的相關？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseOne" class="collapse" aria-labelledby="headOne" data-parent="#accordionExample1">
+				<h4 class="container">人工智慧及多媒體特色</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【多媒體訊號處理】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【人工智慧技術】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【智慧型系統開發】</p>
+					</div>
+				</div>
+				<h4 class="container">人才與產業相關</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【影像處理】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【大數據分析】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【遊戲設計】</p>
+					</div>
+				</div>
+
+				<hr />
+
+				<h4 class="container">網路資訊與資訊安全特色</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【雲端運算系統】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【物聯網應用】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【網路安全與規劃】</p>
+					</div>
+				</div>
+				<h4 class="container">人才與產業相關</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【電子商務】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【IT部門】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【駭客防治】</p>
+					</div>
+				</div>
+
+				<hr />
+
+				<h4 class="container">嵌入式系統與晶片設計特色</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【智慧型手機程式設計】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【Linux系統實務】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【數位晶片設計】</p>
+					</div>
+				</div>
+				<h4 class="container">人才與產業相關</h4>
+				<div class="card-body row text-center">
+					<div class="col-sm-4">
+						<p>【APP開發】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【機器人系統】</p>
+					</div>
+					<div class="col-sm-4">
+						<p>【韌體開發】</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headTwo">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+						各組修習年級、學分制度、可否通修？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headTwo" data-parent="#accordionExample1">
+				<h5 class="justify-content-center">畢業門檻：</h5>
+				<div class="card-body">
+					需依本系學群規範修習主修學群必選12學分，且必選總學分至少需達24學分。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headThree">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						各組對應畢業後的出路？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headThree" data-parent="#accordionExample1">
+				<div class="card-body">
+					參考各組特色、所需人才及與產業的相關
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headFour">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						是否有其他學校沒有的群組？或課程？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseFour" class="collapse" aria-labelledby="headFour" data-parent="#accordionExample1">
+				<div class="card-body">
+					本系特色在於整合三大學群於課程設計，例如:網路資料庫分別在人工智慧及多媒體及嵌入式系統與晶片兩大學群中。讓同學除了在單一學群上有專精，也能涉略其他學群之專業。
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="QA2">
+		<div class="row py-4 font-weight-bold bg-cover bg-attachment" style="background-image: url('img/debora-pilati-dOG0z4-gqp0-unsplash.jpg')">
+			<div class="col text-center">
+				<h3>實作、證照課程，培養學生動手操作</h3>
+			</div>
+		</div>
+	</div>
+	<div class="accordin pb-4 px-4" id="accordionExample2">
+
+		<div class="card">
+			<div class="card-header" id="headFive">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+						實作課程、證照課程實際項目有什麼？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseFive" class="collapse" aria-labelledby="headFive" data-parent="#accordionExample2">
+				<div class="card-body">
+					無證照課程，課程皆以實作為主。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headSix">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						 與三個學群有什麼關聯？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseSix" class="collapse" aria-labelledby="headSix" data-parent="#accordionExample2">
+				<div class="card-body">
+					三學群為目前皆為主流就業產業
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headSeven">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+						實作特別的地方？與其他學校不同之處？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseSeven" class="collapse" aria-labelledby="headSeven" data-parent="#accordionExample2">
+				<div class="card-body">
+					實作課程配有課程助教指導。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="headEight">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+						證照能考取什麼證照？是否有畢業門檻？
+					</a>
+				</h2>
+			</div>
+			<div id="collapseEight" class="collapse" aria-labelledby="headEight" data-parent="#accordionExample2">
+				<div class="card-body">
+					無相關規定
+				</div>
+			</div>
+		</div>
+<!--
+		<div class="card">
+			<div class="card-header" id="head9">
+				<h2 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+
+					</button>
+				</h2>
+			</div>
+			<div id="collapse9" class="collapse" aria-labelledby="head9" data-parent="#accordionExample2">
+				<div class="card-body">
+					參考各組特色、所需人才及與產業的相關
+				</div>
+			</div>
+		</div>
+-->
+		<div class="card">
+			<div class="card-header" id="head10">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+						學習成果？證照考取率？是否辦理成果展？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse10" class="collapse" aria-labelledby="head10" data-parent="#accordionExample2">
+				<div class="card-body">
+					大四上專題展
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="QA3">
+		<div class="row py-4 font-weight-bold bg-cover bg-attachment" style="background-image: url('img/debora-pilati-dOG0z4-gqp0-unsplash.jpg')">
+			<div class="col text-center">
+				<h3>資訊系統專題，啟發學生創意潛能</h3>
+			</div>
+		</div>
+	</div>
+	<div class="accordin pb-4 px-4" id="accordionExample3">
+
+		<div class="card">
+			<div class="card-header" id="head11">
+				<h2 class="mb-0 text-center">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed " type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+						專題辦理的目的？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse11" class="collapse" aria-labelledby="head11" data-parent="#accordionExample3">
+				<div class="card-body">
+					展現所學包括基礎與應用等，並培養學生與產業接軌的能力。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="head12">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+						與實作課程、證照課程是否有關連？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse12" class="collapse" aria-labelledby="head12" data-parent="#accordionExample3">
+				<div class="card-body">
+					專題實作需要累積課堂實作經驗，並利用團隊合作完成。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="head13">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+						是否全體學生需要參與？是否為畢業門檻？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse13" class="collapse" aria-labelledby="head13" data-parent="#accordionExample3">
+				<div class="card-body">
+					同學皆須參加，此為畢業門檻。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="head14">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+						主題如何訂定？是否結合時事？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse14" class="collapse" aria-labelledby="head14" data-parent="#accordionExample3">
+				<div class="card-body">
+					主題訂定以學生為主，老師為輔，皆以目前產業及各領域最新技術為主。
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="head15">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+						與實習或企業是否有關連？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse15" class="collapse" aria-labelledby="head15" data-parent="#accordionExample3">
+				<div class="card-body">
+					部分專題有關連
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header" id="head16">
+				<h2 class="mb-0">
+					<a class="list-group-item list-group-item-action list-group-item-warning collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+						是否有成果展或競賽？評審？賽後下一步？
+					</a>
+				</h2>
+			</div>
+			<div id="collapse16" class="collapse" aria-labelledby="head16" data-parent="#accordionExample3">
+				<div class="card-body">
+					有成果展及競賽，評審除了本系教師更邀請業師及畢業學生參與。
+				</div>
+			</div>
+		</div>
+<!--
+		<div class="card">
+			<div class="card-header" id="head13">
+				<h2 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+
+					</button>
+				</h2>
+			</div>
+			<div id="collapse13" class="collapse" aria-labelledby="head13" data-parent="#accordionExample3">
+				<div class="card-body">
+
+				</div>
+			</div>
+		</div>
+-->
+	</div>
+
+<!-- Connect -->
+
+		<div class="btn-group-vertical">
+			<a id="facebook" href="" class="btn"><i class="fab fa-facebook fa-lg"></i></a>
+			<a id="instagram" href="" class="btn"><i class="fab fa-instagram fa-lg"></i></a>
+			<a id="youtube" href="" class="btn"><i class="fab fa-youtube fa-lg"></i></a>
+			<a id="line" href="https://line.me/R/ti/p/%40800omasr" class="btn"><i class="fab fa-line fa-lg"></i></a>
+		</div>
+
+<!-- Footer -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<h5>系上Mail: </h5><p>crenci@dep.pccu.edu.tw</p>
+				</div>
+				<div class="col-md-12">
+					<h5>系址: </h5><p>111-14 台北市士林區華岡路55號 中國文化大學大義館7樓</p>
+				</div>
+				<div class="col-md-12">
+					<h5>聯絡電話: </h5><p>+886-2-28610511 分機:33505或33506</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
